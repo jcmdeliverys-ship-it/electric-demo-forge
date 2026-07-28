@@ -22,7 +22,7 @@ export const Route = createFileRoute("/booking")({
       { name: "twitter:image", content: images.bookingHero },
     ],
   }),
-  component: Booking;
+  component: Booking,
 });
 
 function Booking() {
