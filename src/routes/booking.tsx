@@ -37,7 +37,7 @@ function Booking() {
         title="Get us in the diary."
         lead="Three short steps. We confirm by phone within a couple of hours during working days, and first thing the next morning otherwise."
         image={images.bookingHero}
-        alt="Van parked outside a house on a residential street"
+        alt="Aerial view of houses in a residential neighbourhood"
       />
 
       <section className="px-4 pt-16">

@@ -35,7 +35,7 @@ function Contact() {
         title="Tell us what is going on."
         lead="The quickest way to get an answer is to ring the office. If it is easier to write it down, use the form and we will come back the same working day."
         image={images.contactHero}
-        alt="Person taking a phone call at a desk with paperwork"
+        alt="Office desk with a laptop and job paperwork"
       />
 
       <section className="px-4 pt-16">

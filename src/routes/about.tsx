@@ -56,7 +56,7 @@ function About() {
         title="A small team that turns up when it says it will."
         lead="Elevate Electrical started with one van and a spare room in Hanover. Fifteen years on there are six of us, a proper workshop off Lewes Road, and the same rule about tidying up."
         image={images.aboutHero}
-        alt="Electrician working at a bench in a workshop"
+        alt="Electrician marking up drawings for a job"
       />
 
       <section className="px-4 pt-20">
@@ -86,7 +86,7 @@ function About() {
           <Reveal delay={120}>
             <img
               src={images.van}
-              alt="Work van parked outside a residential property"
+              alt="Craftsman working at a bench in the workshop"
               loading="lazy"
               className="h-full w-full rounded-4xl object-cover shadow-lift"
             />

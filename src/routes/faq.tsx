@@ -35,7 +35,7 @@ function Faq() {
         title="The things people ask us before booking."
         lead="If your question is not here, ring the office. Sofia has heard most of them and will happily tell you when a job is not worth doing yet."
         image={images.faqHero}
-        alt="Close up of electrical tools laid out on a work surface"
+        alt="Electrical layout drawings being planned at a desk"
       />
 
       <section className="px-4 pt-16">

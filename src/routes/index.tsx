@@ -79,7 +79,7 @@ function Home() {
             <div className="relative">
               <img
                 src={images.board}
-                alt="Newly installed consumer unit with labelled circuits"
+                alt="Test meter and wiring on a workbench"
                 loading="lazy"
                 className="w-full rounded-4xl object-cover shadow-lift"
               />

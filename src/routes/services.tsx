@@ -33,7 +33,7 @@ function Services() {
         title="Domestic and small commercial electrical work."
         lead="Everything below is done in house by our own electricians. If a job needs a plasterer, decorator or heating engineer alongside us, we will tell you who we use locally."
         image={images.servicesHero}
-        alt="Electrician installing cabling in a residential property"
+        alt="Electrician beside a wall mounted distribution board"
       />
 
       <section className="px-4 pt-20">
