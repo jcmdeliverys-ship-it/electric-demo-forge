@@ -12,16 +12,16 @@ export const photo = (id: string, w = 1600) =>
 
 export const images = {
   homeHero: photo("1621905251189-08b45d6a269e"),
-  aboutHero: photo("1521791136064-7986c2920216"),
-  servicesHero: photo("1581092160562-40aa08e78837"),
+  aboutHero: photo("1503387762-592deb58ef4e"),
+  servicesHero: photo("1621905252507-b35492cc74b4"),
   galleryHero: photo("1600585154340-be6161a56a0c"),
   testimonialsHero: photo("1497366216548-37526070297c"),
-  faqHero: photo("1517420704952-d9f39e95b43e"),
-  contactHero: photo("1503387762-592deb58ef4e"),
-  bookingHero: photo("1454165804606-c3d57bc86b40"),
-  team: photo("1565608087341-404b25492fee"),
+  faqHero: photo("1581092160562-40aa08e78837"),
+  contactHero: photo("1454165804606-c3d57bc86b40"),
+  bookingHero: photo("1516156008625-3a9d6067fab5"),
+  team: photo("1521791136064-7986c2920216"),
   van: photo("1558618666-fcd25c85cd64"),
-  board: photo("1591955506264-3f5a6834570a"),
+  board: photo("1517420704952-d9f39e95b43e"),
 };
 
 export const gallery = [
@@ -38,25 +38,25 @@ export const gallery = [
     tag: "Consumer units",
   },
   {
-    src: photo("1493397212122-2b85dda8106b", 1200),
+    src: photo("1497366216548-37526070297c", 1200),
     title: "Office lighting and small power fit out",
     place: "New England House",
     tag: "Commercial",
   },
   {
-    src: photo("1560518883-ce09059eeffa", 1200),
+    src: photo("1581092160562-40aa08e78837", 1200),
     title: "Kitchen extension first fix",
     place: "Lewes",
     tag: "Renovations",
   },
   {
-    src: photo("1585704032915-c3400ca199e7", 1200),
+    src: photo("1516156008625-3a9d6067fab5", 1200),
     title: "7kW EV charger, bonded and tested",
     place: "Withdean",
     tag: "EV charging",
   },
   {
-    src: photo("1516156008625-3a9d6067fab5", 1200),
+    src: photo("1493397212122-2b85dda8106b", 1200),
     title: "Garden lighting on a timed circuit",
     place: "Ditchling",
     tag: "Outdoor",
