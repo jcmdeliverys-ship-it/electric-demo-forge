@@ -68,13 +68,13 @@ export const gallery = [
     tag: "Testing",
   },
   {
-    src: photo("1621905252507-b35492cc74b4", 1200),
+    src: photo("1517420704952-d9f39e95b43e", 1200),
     title: "Three phase distribution board replacement",
     place: "Portslade",
     tag: "Commercial",
   },
   {
-    src: photo("1596526131083-e8c633c948d2", 1200),
+    src: photo("1558618666-fcd25c85cd64", 1200),
     title: "Loft conversion lighting design",
     place: "Preston Park",
     tag: "Renovations",
