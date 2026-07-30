@@ -12,13 +12,12 @@ export function PageTransition({ children }: { children: ReactNode }) {
     const swap = window.setTimeout(() => {
       setShowing(pathname);
       window.scrollTo({ top: 0, behavior: "auto" });
+      window.setTimeout(() => setLoading(false), 280);
     }, 280);
-    const done = window.setTimeout(() => setLoading(false), 560);
-    return () => {
-      window.clearTimeout(swap);
-      window.clearTimeout(done);
-    };
-  }, [pathname, showing]);
+    return () => window.clearTimeout(swap);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
+
 
   return (
     <>
