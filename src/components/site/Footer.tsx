@@ -1,26 +1,36 @@
 import { Link } from "@tanstack/react-router";
 import { business } from "@/lib/site-data";
 import { WubbleCredit } from "@/components/wubble/WubbleCredit";
+import { Logo } from "./Nav";
 
 export function Footer() {
+  const tel = `tel:${business.phone.replace(/\s/g, "")}`;
   return (
-    <footer className="mt-24 px-4 pb-24">
-      <div className="mx-auto max-w-6xl overflow-hidden rounded-4xl bg-ink px-6 py-14 text-white/80 sm:px-12">
-        <div className="grid gap-12 md:grid-cols-[1.3fr_1fr_1fr]">
+    <footer className="blueprint mt-0 px-4 pb-28 pt-16 text-white/70 sm:px-6">
+      <div className="mx-auto max-w-7xl">
+        <div className="flex flex-col gap-8 border-b border-white/10 pb-12 md:flex-row md:items-end md:justify-between">
           <div>
-            <div className="flex items-center gap-3">
-              <span className="flex h-10 w-10 items-center justify-center rounded-full copper-gradient text-white">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" />
-                </svg>
-              </span>
-              <span className="text-lg font-extrabold text-white">Elevate Electrical Ltd</span>
-            </div>
+            <p className="text-sm text-white/50">Power off, burning smell, water near the board?</p>
+            <a
+              href={tel}
+              className="font-expanded mt-2 block text-4xl font-extrabold tracking-tight text-white transition-colors hover:text-copper-soft sm:text-6xl"
+            >
+              {business.phone}
+            </a>
+          </div>
+          <p className="max-w-xs text-sm">
+            A real person answers, day or night, and tells you what to isolate before we arrive.
+          </p>
+        </div>
+
+        <div className="grid gap-12 pt-12 md:grid-cols-[1.4fr_1fr_1fr]">
+          <div>
+            <Logo light />
             <p className="mt-5 max-w-sm text-sm leading-relaxed">
               NICEIC approved electricians working across {business.area}. Rewires, EICRs, EV
               chargers and the small jobs nobody else will turn up for.
             </p>
-            <p className="mt-5 text-sm">
+            <p className="mt-5 text-sm leading-relaxed">
               {business.address}
               <br />
               Company no. 09482731 (fictional demo business)
@@ -28,8 +38,8 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-widest text-white">Pages</h3>
-            <div className="mt-4 grid gap-2 text-sm">
+            <h3 className="text-sm font-semibold text-white">Pages</h3>
+            <div className="mt-4 grid grid-cols-2 gap-2 text-sm">
               {[
                 ["/", "Home"],
                 ["/about", "About"],
@@ -40,7 +50,7 @@ export function Footer() {
                 ["/contact", "Contact"],
                 ["/booking", "Booking"],
               ].map(([to, label]) => (
-                <Link key={to} to={to} className="transition-colors hover:text-copper-soft">
+                <Link key={to} to={to} className="transition-colors hover:text-white">
                   {label}
                 </Link>
               ))}
@@ -48,12 +58,9 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-widest text-white">Contact</h3>
+            <h3 className="text-sm font-semibold text-white">Contact</h3>
             <div className="mt-4 grid gap-2 text-sm">
-              <a href={`tel:${business.phone.replace(/\s/g, "")}`} className="hover:text-copper-soft">
-                {business.phone}
-              </a>
-              <a href={`mailto:${business.email}`} className="hover:text-copper-soft">
+              <a href={`mailto:${business.email}`} className="hover:text-white">
                 {business.email}
               </a>
               <p>{business.hours}</p>
@@ -61,7 +68,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col gap-3 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-14 flex flex-col gap-3 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
           <WubbleCredit />
           <p className="text-sm text-white/40">
             Demonstration site. All content and reviews are placeholder examples.
