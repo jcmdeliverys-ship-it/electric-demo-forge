@@ -151,7 +151,7 @@ function Home() {
               <span className="h-[3px] w-6 bg-copper" />
               Brighton, Hove and Lewes since 2009
             </p>
-            <h1 className="font-expanded mt-6 text-[2.75rem] text-ink sm:text-7xl lg:text-[5.25rem]">
+            <h1 className="font-expanded mt-6 text-[2.5rem] text-ink sm:text-6xl lg:text-[4.4rem]">
               Electrical work you only have to have done once.
             </h1>
             <p className="mt-7 max-w-xl text-lg leading-relaxed text-muted-foreground">
