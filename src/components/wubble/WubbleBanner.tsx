@@ -15,7 +15,7 @@ export function WubbleBanner() {
     <div className="wubble-banner wubble-gradient fixed inset-x-0 bottom-0 z-[70] flex items-center justify-center gap-3 px-4 py-2.5 text-center text-sm text-white sm:gap-4">
       <span className="font-medium">This is a live Wubble demonstration website.</span>
       <a
-        href="https://wubble.uk/book-consultation"
+        href="https://wubble.uk/book-consultation?from=electrician"
         className="wubble-banner-cta shrink-0 rounded-full bg-white/15 px-3.5 py-1.5 text-sm font-semibold text-white ring-1 ring-white/40 transition hover:bg-white/25"
       >
         Let's build yours
